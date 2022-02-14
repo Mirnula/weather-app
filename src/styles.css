@@ -1,0 +1,66 @@
+.capitalize-first {
+  text-transform: lowercase;
+}
+.capitalize-first::first-letter {
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+  position: relative;
+  top: 90px;
+  left: -40px;
+}
+
+.units {
+  position: relative;
+  top: -14px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.myweatherapp {
+  background-image: linear-gradient(#fdceb9, #efdad7, #9ad0ec);
+  border: 2px solid #1572a1;
+  padding: 30px;
+  margin: 50px auto;
+
+  max-width: 750px;
+  border-radius: 15px;
+  font-family: "Spinnaker", sans-serif;
+  color: #4a4e52;
+}
+
+#search-city-input {
+  border-radius: 30px;
+  border: 1px solid #4a4e52;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-family: "Spinnaker", sans-serif;
+}
+
+#searchButton {
+  border: 1px solid #4a4e52;
+
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  border-radius: 30px;
+}
+
+.todayDate {
+  font-size: larger;
+}
+
+#currentButton {
+  border: 1px solid #4a4e52;
+
+  padding: 10px 20px;
+  background-color: #1572a1;
+  color: white;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+p {
+  font-family: monospace;
+  text-align: center;
+}
